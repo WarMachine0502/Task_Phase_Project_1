@@ -61,7 +61,7 @@ button{
     background-color: #A52A2A;
     color:white;
     transition: 0.2s;
-    transform: translateY(-2px);
+    transform: translateY(-4px);
 }
 
 hr{
