@@ -1,21 +1,23 @@
-<!DOCTYPE HTML>
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <title>SignUp Page</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <center>
+    <div class="formbox2">
+        <img src="images/userIcon.png" alt="User Icon">
         <h1>Sign-Up</h1>
         <h5>Please provide the following credentials:</h5>
-        <form action="">
-           <label>E-mail:</label>
-            <input type="email" name="email" placeholder="- - - -"><br><br>
+        <form>
+            <label>E-mail:</label>
+            <input type="email" name="email" class="tb">
             <label>Name:</label>
-            <input type="text" name="name" placeholder="- - - -"><br><br>
+            <input type="text" name="name" class="tb">
             <label>Birthday:</label>
             <input type="date" name="birthday"><br><br>
             <label>Gender:</label>
@@ -24,15 +26,15 @@
                 <option value="female">Female</option>
                 <option value="other">Other</option>
             </select><br><br>
-            <label>Username:</label>
-            <input type="text" name="uname" placeholder="- - - -"><br><br>
-            <label>Password:</label>
-            <input type="password" name="pswd" placeholder="- - - -"><br><br>
+            <label>Enter UserName:</label>
+            <input type="text" name="uname" class="tb">
+            <label>Enter Password:</label>
+            <input type="password" name="pswd" class="tb">
             <label>Confirm Password:</label>
-            <input type="password" name="pswd" placeholder="- - - -"><br>
-            <p>Already have an account? <a href="index.html" target="blank"><strong>Sign-In!</strong></a></p><br>
-            <input type="submit" name="submit" value="Submit">
-        </form>
-    </center>
+            <input type="password" name="pswd" class="tb">
+            <button type="button" class="b1">Submit</button>
+            <hr>
+            <p class="or">OR</p>
+            <p>Already have an account? <a href="index.html" target="blank"><strong>Sign-In!</strong></a></p>
 </body>
 </html>

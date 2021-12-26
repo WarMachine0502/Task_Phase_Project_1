@@ -1,23 +1,31 @@
-<!DOCTYPE HTML>
-<html>
+<!DOCTYPE html>
+<html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <title>SignIn Page</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <center>
+    <div class="formbox">
+        <img src="images/userIcon.png" alt="User Icon  ">
         <h1>Sign-In</h1>
-        <p>Don't have an account? <a href="SignUp.html" target="blank"><strong>Sign-up!</strong></a></p>
-        <form action="">
-            <label>Username:</label>
-            <input type="text" name="uname" placeholder="- - - -"><br><br>
-            <label>Password:</label>
-            <input type="password" name="pswd" placeholder="- - - -"><br><br>
-            <input type="submit" name="submit" value="Submit">
+        <form>
+            <label>Enter UserName:</label>
+            <input type="text" name="uname" class="tb">
+            <label>Enter Password:</label>
+            <input type="password" name="pswd" class="tb">
+            <button type="button" class="b1">Submit</button>
+            <hr>
+            <p class="or">OR</p>
+            <p>Don't have an account? <a href="SignUp.html" target="blank"><strong>Sign-up!</strong></a></p>
+
         </form>
-    </center>
+    </div>
 </body>
+
 </html>
